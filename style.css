@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: consolas;
+}
+
+p {
+    font-size: 22px;
+    line-height: 44px;
+}
+
+#navigation a,
+#name,
+#subtitle,
+#wiki-main-title,
+.wiki-title {
+    font-family: 'Gemunu Libre', sans-serif;
+}
+
+header {
+    background: #333333;
+    height: 75px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    overflow-y: hidden;
+    min-width: 720px;
+}
+
+#logo {
+    background-image: url("assets/aperture.svg");
+    background-repeat: no-repeat;
+    background-size: 50px;
+    width: 50px;
+    height: 50px;
+    float: left;
+    margin-top: 15px;
+    margin-left: 10%;
+}
+
+#navigation {
+    float: right;
+    height: 100%;
+    margin-right: 10%;
+    padding-top: 30px;
+}
+
+#navigation a {
+    text-transform: uppercase;
+    font-size: 22px;
+    font-weight: 600;
+    color: #ff0099;
+    padding: 30px 20px;
+}
+
+#navigation a:hover {
+    background-color: #5e5e5e;
+}
+
+main {
+    padding: 150px 10%;
+    background-image: url("assets/topography.png");
+    background-size: 600px;
+    min-width: 720px;
+    min-height: calc(100vh - 150px);
+}
+
+#name {    
+    font-size: 70px;
+    font-weight: 800;
+    margin-bottom: 15px;
+}
+
+#subtitle {
+    color: #ff0099;
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+#introduction {
+    font-size: 30px;
+}
+
+.separator {
+    text-align: center;
+    font-size: 35px;
+    margin-top: 100px;
+}
+
+#wiki {
+    padding-top: 100px;
+}
+
+#wiki-main-title {
+    text-align: center;
+    font-size: 50px;
+    font-weight: 800;
+    margin-bottom: 80px;
+}
+
+.wiki-title {
+    font-size: 35px;
+    font-weight: 700;
+    margin: 30px 0 5px;
+}
+
+.wiki-definition {
+    font-size: 25px;
+}
+
+footer {
+    background: #333333;
+    height: 75px;
+    width: 100%;
+}
